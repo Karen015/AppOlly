@@ -1,7 +1,7 @@
 import { 
     CopyrightCircleOutlined,
-    FacebookOutlined,
-    InstagramOutlined,
+    FacebookFilled,
+    InstagramFilled,
     TwitterOutlined,
     SendOutlined,
     MailOutlined,
@@ -40,12 +40,12 @@ const Footer = () => {
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim.
                     </p>
                     <div>
-                        <FacebookOutlined style={{color: "#5856e8"}} />
-                        <Divider type="vertical" style={{borderColor: "#ffffff", fontSize: "15px"}}/>
-                        <InstagramOutlined />
-                        <Divider type="vertical" style={{borderColor: "#ffffff", fontSize: "15px"}} />
+                        <FacebookFilled style={{color: "#5856e8"}} />
+                        <Divider type="vertical" style={{borderColor: "#ffffff", fontSize: "20px"}}/>
+                        <InstagramFilled />
+                        <Divider type="vertical" style={{borderColor: "#ffffff", fontSize: "20px"}} />
                         <TwitterOutlined />
-                        <Divider type="vertical" style={{borderColor: "#ffffff", fontSize: "15px"}} />
+                        <Divider type="vertical" style={{borderColor: "#ffffff", fontSize: "20px"}} />
                         <YoutubeFilled />
                     </div>
                 </div>
