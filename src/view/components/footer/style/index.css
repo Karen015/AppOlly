@@ -1,0 +1,113 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #232233;
+  color: white;
+  position: relative;
+  padding: 200px 0 0 0 ;
+}
+.footer .footer_contact_info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ffffff;
+  color: black;
+  padding: 20px;
+  font-size: 80%;
+  border-radius: 5px;
+  box-shadow: 0 0 50px #50505040;
+  width: 70%;
+  position: absolute;
+  gap: 15px;
+  top: -60px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.footer .footer_contact_info > hr {
+  width: 2px;
+  height: 80px;
+  background-color: #232233;
+  margin: 0 auto;
+}
+.footer .footer_contact_info > div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+.footer .footer_contact_info > div .icon_container {
+  background-color: #5856e8;
+  color: white;
+  font-size: 120%;
+  padding: 30px;
+  border-radius: 100%;
+}
+.footer > .footer_content_contaier {
+  display: flex;
+  justify-content: space-around;
+}
+.footer > .footer_content_contaier > div {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+  width: 25%;
+  text-align: left;
+  padding: 10px;
+}
+.footer > .footer_content_contaier > div ul {
+  margin: 0;
+  padding: 0;
+}
+.footer > .footer_content_contaier > div ul li {
+  list-style: none;
+}
+.footer > .footer_content_contaier > div ul li > a {
+  text-decoration: none;
+  color: white;
+}
+.footer > .footer_content_contaier > div h2,
+.footer > .footer_content_contaier > div p {
+  margin: 0;
+}
+.footer .footer_input button {
+  border-radius: 5px;
+  border: 0;
+  background-color: #5856e8;
+}
+.footer hr {
+  width: 95%;
+  border: 0;
+  height: 1px;
+  background-color: #ffffff;
+}
+@media only screen and (max-width: 720px) {
+  .footer_content_contaier {
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .footer_content_contaier > div {
+    width: 90% !important;
+  }
+  .copyright_text {
+    width: 80%;
+    font-size: 80% !important;
+  }
+  .footer_contact_info {
+    flex-direction: column !important;
+    gap: 10px !important;
+    top: -170px !important;
+  }
+  .footer_contact_info > div {
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .footer_contact_info > hr {
+    width: 50% !important;
+    height: 1px !important;
+  }
+}

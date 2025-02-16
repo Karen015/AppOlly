@@ -1,0 +1,115 @@
+.download_main_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.download_main_container .download_content_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start !important;
+  align-items: flex-start !important;
+  width: 100%;
+  gap: 30px;
+}
+.download_main_container .download_content_container .download_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+}
+.download_main_container .download_content_container .download_text h2,
+.download_main_container .download_content_container .download_text p {
+  margin: 0 !important;
+}
+.download_main_container .download_content_container .button_container {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  border: 0;
+  gap: 25px;
+}
+.download_main_container .download_content_container .button_container > a {
+  width: 40%;
+}
+.download_main_container .download_content_container .button_container > a img {
+  width: 100%;
+}
+.download_main_container .download_content_container .rate_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 5px;
+  width: 100%;
+}
+.download_main_container .download_content_container .rate_container > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #5a52eb;
+  padding: 15px;
+  color: #ffffff;
+  border-radius: 5px;
+  font-size: 80%;
+  width: 20% ;
+  white-space: nowrap;
+  gap: 10px;
+  box-shadow: 0 0 10px #ccc;
+}
+.download_main_container .download_content_container .rate_container > div > p {
+  margin: 0;
+}
+.download_main_container .img_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+}
+.download_main_container .img_container > img {
+  width: 100%;
+  z-index: 1;
+}
+.download_main_container .img_container > .circle {
+  border-radius: 50%;
+  box-shadow: 0 0 15px #ccccccbd;
+  transform: translate(-5px, -30px);
+  padding: 15% 30% !important;
+  width: 10px;
+  align-self: center;
+  z-index: -3;
+}
+@media only screen and (max-width: 720px) {
+  .download_text p {
+    font-size: 80%;
+  }
+  .download_text p > span {
+    display: none;
+  }
+  .download_main_container {
+    flex-direction: column !important;
+    font-size: 90%;
+  }
+  .download_main_container .button_container {
+    justify-content: space-between !important;
+  }
+  .download_main_container .img_container {
+    width: 100% !important;
+    justify-content: space-between !important;
+  }
+  .download_main_container .rate_container {
+    width: 100% !important;
+  }
+  .download_main_container .rate_container > div {
+    width: 20% !important;
+    font-size: 70% !important;
+  }
+  .download_main_container .circle {
+    padding: 15% 20% !important;
+  }
+}

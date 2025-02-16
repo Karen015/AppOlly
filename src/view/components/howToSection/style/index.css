@@ -1,0 +1,98 @@
+.how_to_container {
+  position: relative;
+}
+.how_to_container .bg_img {
+  background-image: url("../../../images/164dd3d96eb61bd7b4822bb8e0953967.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+  display: flex;
+  justify-content: start;
+  padding: 20px;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  color: white;
+}
+.how_to_container .bg_img > div {
+  font-size: 70% !important;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 10px;
+  width: 45%;
+  font-size: 60%;
+}
+.how_to_container .bg_img > div > h2,
+.how_to_container .bg_img > div p {
+  margin: 0;
+}
+.how_to_container .player_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: absolute;
+  top: calc(100% - 100px);
+  left: 50%;
+  transform: translateX(-50%);
+}
+.how_to_container .player_section > div {
+  background-image: url("https://s3-alpha-sig.figma.com/img/c65b/0e9f/7896d9c2c41b100445a28ae26a0a5840?Expires=1740355200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=T8Bye23GouhpJcrLtnb76s---ea~pct5muG2VjrmuDu~EN~aP7UYx~7WnTbZANQO7iISzMkxIRVAE2hq9XE60kwp4WM0bMVrIoevLJjdFkg-2ogwIE7Pnip5p-jRl9EgBLtXLIgK0ziTkyMxH5kgDzOHw~SuQnc~9vLaxB8C-hAbn6vnzaIV2CrexweaNXfCMc37OJl-yUyW-XHUKq69N2cf01drwMFuSmmjQQoyrYT0JdtX5DUcPIIy01UW3hTrq7BzWgTv8nhwr9hKUHcXnyWgKAI9I~~xf3nU5bFPXnZDjLG1qZ58o2ryl9JqPdi~mMCEZYoE9C11J-lcc9pWxg__");
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 200px;
+  border-radius: 10px;
+}
+.how_to_container .player_section > div > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 100%;
+  padding: 0.5vh;
+}
+.how_to_container .player_section > div > div > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 100%;
+  padding: 0.5vh;
+}
+.how_to_container .player_section > div > div > div > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 100%;
+  padding: 0.5vh;
+}
+.how_to_container .player_section > div > div > div > div > .play_icon {
+  color: #5856e8;
+  font-size: 1.5vh;
+}
+@media only screen and (max-width: 720px) {
+  .player_section > div {
+    width: 90% !important;
+  }
+  .play_icon {
+    font-size: 1.5vh !important;
+  }
+  .bg_img > div {
+    font-size: 70% !important;
+    width: 90% !important;
+  }
+  .bg_img > div span {
+    display: none;
+  }
+}

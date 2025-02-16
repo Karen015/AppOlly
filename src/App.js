@@ -1,9 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import HomePage from './view/pages/homePage';
 function App() {
   return (
     <div className="App">
+      <HomePage />
     </div>
   );
 }

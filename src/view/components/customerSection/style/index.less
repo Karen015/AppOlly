@@ -1,0 +1,73 @@
+.customers_main_container {
+    background-image: url("../../../images/164dd3d96eb61bd7b4822bb8e0953967.png");
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 50px auto;
+    padding: 40px 0;
+    color: #ffffff;
+    gap: 20px;
+    width: 100%;
+    .customers_header {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        > div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            position: relative;
+            width: 60%;
+            p {
+                font-size: 80%;
+                width: 65%;
+                text-align: center;
+            }
+        }
+    }
+    .custom_dots {
+        bottom: -20px; 
+        left: 50%;
+        transform: translateX(-50%);
+        border-radius: 100%;
+    }
+    .customer_card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        div {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #ffffff;
+            width: 70%;
+            margin: auto;
+            gap: 10px;
+            padding: 20px;
+            border-radius: 10px;
+            h2, h4, p {
+                margin: 0;
+                color: #232233;
+                width: 70%;
+            }
+            p {
+                font-size: 90%;
+                color: gray;
+            }
+            img {
+                border-radius: 50%;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    span {
+        display: none;
+    }
+}

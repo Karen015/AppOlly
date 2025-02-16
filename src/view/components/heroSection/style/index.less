@@ -1,0 +1,92 @@
+.hero_section {
+    background-image: url('../../../images/164dd3d96eb61bd7b4822bb8e0953967.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 100px;
+    width: 100%;
+    gap: 150px;  
+    .hero_section_container {
+        display: flex;
+        justify-content: space-around;
+        align-self: flex-end;
+        align-items: center;   
+        width: 100%; 
+        .border_box{
+            position: absolute;
+            border: 15px solid #7572FF;
+            transform: translate(-20px);
+            z-index: 0;
+            width: 40%;
+            height: 55vh;
+        }
+        .hero_section_content1 {
+            background-color: #ffffff;
+            padding: 15px; 
+            text-align: left;
+            align-self: center;
+            z-index: 1;
+            gap: 10px;
+            flex-direction: column;
+            position: relative;
+            width: 35%;
+            font-size: 75%;
+            outline: 15px solid #7572FF;
+            outline-offset: 15px;
+            border: 5px solid #9999993d;
+            display: flex;
+            > h1 {
+                color: #5856e8;
+                font-size: 300%;
+                margin: 0;
+            }
+            .button_container {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                width: 80%;
+                .download_buttons {
+                    width: 100%;
+                }
+            }
+        }
+        .hero_section_content2 {
+            background-color: rgba(0, 0, 0, 0);
+            justify-self: flex-end;
+            display: flex;
+            width: 35%;   
+        }   
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    .hero_section_container {
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: end !important;
+        margin-top: 20px;
+        width: 100%;
+        gap: 50px;
+        .hero_section_content1 {
+            font-size: 60% !important;
+            padding: 20px;
+            width: 50% !important;
+            margin: auto;
+            align-self: flex-end !important;
+            height: auto !important;
+            align-self: flex-start !important;
+            span {
+                display: none;
+            }
+        }
+        .hero_section_content2 {
+            max-width: 75%;
+            width: 100% !important;
+        }
+    }
+}
